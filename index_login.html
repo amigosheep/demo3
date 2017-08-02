@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login interface</title>
+	
+	<link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="iconfont/demo.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/index_login.css">
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/index_login.js"></script>
+
+    
+</head>
+<body>
+<div id="logo"><img src="images/nav-logo.png" alt=""></div>
+<form action="index.html" method="post" onsubmit="return checkInput()">
+<div id="login">
+	<div id="login_interface">
+	<div id="login_interface_top">
+	<span class="line"></span>
+	<p class="title">用户登录</p></div>
+	<div id="login_interface_middle">
+	<ul class="ul_username">
+		<li class="li_userName"><i class="icon iconfont icon-ren"></i></li>
+		<li><input type="text" placeholder="用户名" class="userName" maxlength="11" onblur="checkUsername()"></li>
+	</ul>
+	<span class="hint_text hint_userName">用户名必须填写</span>
+	<ul class="ul_password">
+		<li class="li_passWord"><i class="icon iconfont icon-lock"></i></li>
+		<li><input type="password" placeholder="密码" class="passWord" onblur="checkPassword()"></li>
+		<li class="icon_eye" onclick="eye()"><i class="icon iconfont icon-biyan"></i></li>
+	</ul>
+	<span class="hint_text hint_passWord">密码必须填写</span>
+	<ul class="ul_code">
+		<li><input type="text" placeholder="验证码" class="code" onblur="checkCode()"></li><li class="li_getCode"></li><span onclick="getCode()">看不清？换图片</span>
+	</ul>
+	<span class="hint_code">验证码必须填写</span>
+		
+	<input type="submit" value="登录" class="login_btn">
+	</div>
+	<div id="login_interface_bottom">
+	<ul>
+		<li><a href="index_register.html">用户注册</a></li>
+		<li><a href="#">忘记密码？</a></li>
+	</ul>
+	
+	</div>
+</div>
+</form>	
+    <!-- <script src="js/swiper.min.js"></script> -->
+
+
+	
+</body>
+</html>

@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html,body{
+	font-family:"微软雅黑";
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+body{
+	background:url('../images/login_background.jpg') no-repeat;
+	background-position:fixed;/*背景定位*/
+	background-size:cover;
+}
+#logo{
+	margin-bottom:10%;
+}
+#register{
+	position:relative;
+	top:30%;
+	left:70%;
+	width:400px;
+	height:490px;
+	background-color:#fff;
+	border-top:2px solid #e8868b;
+	box-shadow:0px 0px 14px 2px #caba8b;
+}
+#register_interface{
+	margin:0 auto;
+	width:85%;
+	height:100%;
+}
+#register_interface_top{
+	height:15%;
+	display:flex;
+	align-items:center;
+}
+#register_interface_middle{
+	height:75%;
+}
+#register_interface_bottom{
+	height:10%;
+}
+.title{
+	font-size:16px;
+	font-weight:bold;
+	height:50px;
+	margin-left:10px;
+	line-height:50px;
+}
+.line{
+	display:inline-block;
+	width:4px;
+	height:16px;
+	line-height:16px;
+	vertical-align:middle;
+	background-color:#e8868b;
+}
+ul{
+	color:#b76260;
+	width:100%;
+	list-style:none;
+	display:flex;
+}
+#register_interface_bottom ul{
+	margin-top:5px;
+}
+#register_interface_bottom ul li:nth-of-type(1){
+	width:40%;
+}
+#register_interface_bottom ul li:nth-of-type(2){
+	width:60%;
+	text-align:right;
+}
+#register_interface_middle li{
+	height:40px;
+	line-height:40px;
+}
+.ul_Phonenum li:nth-of-type(1),.ul_passWord li:nth-of-type(1),.ul_repassWord li:nth-of-type(1),.ul_code li:nth-of-type(1){
+	width:10%;
+	background-color:#f2dede;
+	text-align:center;
+	border-radius:4px 0px 0px 4px;
+	border:1px solid #b76260;
+	border-right:none;
+}
+.ul_code li:nth-of-type(2){
+	width:55%;
+	border-left:none;
+}
+.ul_code li:nth-of-type(4){
+	width:35%;
+	text-align:center;
+}
+
+.ul_Phonenum li:nth-of-type(2),.ul_passWord li:nth-of-type(2),.ul_repassWord li:nth-of-type(2){
+	width:90%;
+}
+.li_getCode{
+	display:none;
+	width:20%;
+	margin-left:5px;
+	font-size:16px;
+	font-weight:bold;
+	background-color:#f2dede;
+	text-align:center;
+	border-radius:4px;
+	border:1px solid #b76260;
+}
+input{
+	font-size:16px;
+	font-weight:bold;
+	width:100%;
+	height:40px;
+	border-radius:0px 4px 4px 0px;
+	border:1px solid #b76260;
+	text-indent:15px;
+}
+a{
+	color:#4f8bca;
+	text-decoration:none;
+}
+span{
+	color:#b76260;
+	font-size:14px;
+}
+#register_interface_bottom span{
+	font-size:12px;
+	color:#000;
+}
+.hint_text{
+	color:#a94442;
+	display:block;
+	margin-bottom:20px;
+}
+.code_btn{
+	color:#fff;
+	background-color:#ec868c;
+	width:90%;
+	margin:0 5px;
+	text-align:center;
+	border-radius:4px;
+	border:1px solid #b76260;
+	text-indent:0px;
+}
+.ul_code span{
+	display:block;
+	width:35%;
+	line-height:40px;
+	color:#4f8bca;
+	text-align:center;
+
+}
+.register_btn{
+	width:100%;
+	height:40px;
+	color:#fff;
+	background-color:#e2454e;
+	border-radius:6px;
+}

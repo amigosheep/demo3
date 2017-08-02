@@ -1,0 +1,128 @@
+*{
+	margin:0;
+	padding:0;
+}
+html, body {
+	font-family:微软雅黑;
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+        /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  	-webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.slide2{
+	background:url("../images/2.jpg") no-repeat;
+}
+.slide3{
+	background:url('../images/3.jpg') no-repeat;
+}
+.slide4{
+	background:url('../images/4.jpg') no-repeat;
+}
+.slide5{
+	background:url('../images/5.jpg') no-repeat;
+}
+.swiper-pagination-bullet{
+	width:20px;
+	height:20px;
+	background-color:#b13e3e;
+}
+#header{
+	font-weight:bold;
+	width:100%;
+	height:60px;
+	position:fixed;
+	z-index:99;
+	background-color:#ccc;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#000;
+}
+ul{
+	list-style:none;
+	
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.leave{
+	margin-left:5px; 
+}
+.header_ul_one img{
+	width:150px;
+	opacity:1;
+}
+.header_ul_three img{
+	width:40px;
+	opacity:1;
+}
+.header_ul_three span{
+	display:block;
+	margin-left:20px;
+}
+.header_ul_one{
+	width:200px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.header_ul_two{
+	width:800px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.header_ul_three{
+	width:200px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.header_ul_two li{
+	width:100px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.quxian{
+	width:700px;
+	position: absolute;
+	left:0%;
+	top:20%;
+}
+.table{
+	width:700px;
+	position: absolute;
+	right:0%;
+	top:60%;
+}

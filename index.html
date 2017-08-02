@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index_main.css">
+    <!-- Swiper JS -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/index.js"></script>
+    
+
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div id="header">
+            <ul class="header_ul_one">
+                <li><img src="images/nav-logo.png"></li>
+            </ul>
+            <ul class="header_ul_two">
+                <li>优先认购</li>
+                <li>我要投资</li>
+                <li>我要转让</li>
+                <li>我要供票</li>
+                <li>我的云桥</li>
+                <li>帮助中心</li> 
+            </ul>
+            <ul class="header_ul_three">
+                <li><img src="images/user.png" alt=""></li>
+                <span><a href="index_login.html" class="a_login">登录 /</a><a href="index_register.html" class="a_register"> 注册</span></a><a class="leave" display="none">退出</a>
+            </ul>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1">
+            <video src="video/banner.mp4" autoplay loop></video>
+            </div>
+            <div class="swiper-slide slide2">
+                <img src="images/quxian.png" alt="" class="ani quxian" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">
+                <img src="images/table.png" alt="" class="ani table" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">
+            </div>
+            <div class="swiper-slide slide3"></div>
+            <div class="swiper-slide slide4"></div>
+            <div class="swiper-slide slide5"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+</html>

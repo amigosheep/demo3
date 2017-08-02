@@ -1,0 +1,151 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html,body{
+	font-family:微软雅黑;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+body{
+	background:url('../images/login_background.jpg') no-repeat;
+	background-position:fixed;/*背景定位*/
+	background-size:cover;
+}
+#logo{
+	margin-bottom:10%;
+}
+#login{
+	position:relative;
+	top:30%;
+	left:70%;
+	width:400px;
+	height:370px;
+	background-color:#fff;
+	border-top:2px solid #e8868b;
+	box-shadow:0px 0px 14px 2px #caba8b;
+}
+#login_interface{
+	margin:0 auto;
+	width:85%;
+	height:100%;
+}
+#login_interface_top{
+	height:15%;
+	display:flex;
+	align-items:center;
+}
+#login_interface_middle{
+	height:75%;
+}
+#login_interface_bottom{
+	height:10%;
+}
+.title{
+	font-size:16px;
+	font-weight:bold;
+	height:50px;
+	margin-left:10px;
+	line-height:50px;
+}
+.line{
+	display:inline-block;
+	width:4px;
+	height:16px;
+	line-height:16px;
+	vertical-align:middle;
+	background-color:#e8868b;
+}
+ul{
+	color:#b76260;
+	width:100%;
+	list-style:none;
+	display:flex;
+}
+
+#login_interface_bottom ul li{
+	width:50%;
+}
+#login_interface_bottom ul li:nth-of-type(2){
+	text-align:right;
+}
+#login_interface_middle li{
+	height:40px;
+	line-height:40px;
+}
+.ul_username li:nth-of-type(1),.ul_password li:nth-of-type(1){
+	width:10%;
+	background-color:#f2dede;
+	text-align:center;
+	border-radius:4px 0px 0px 4px;
+	border:1px solid #b76260;
+	border-right:none;
+}
+.ul_code li:nth-of-type(1){
+	width:40%;
+}
+.ul_code li:nth-of-type(2){
+	width:25%;
+	background-color:#f2dede;
+	text-align:center;
+	border-radius:0px 4px 4px 0px;
+	border:1px solid #b76260;
+	border-left:none;
+}
+.ul_username li:nth-of-type(2){
+	width:90%;
+}
+.ul_password li:nth-of-type(2){
+	width:80%;
+}
+.ul_password .icon_eye{
+	width:10%;
+	text-align:center;
+}
+input{
+	font-size:16px;
+	font-weight:bold;
+	width:100%;
+	height:40px;
+	border-radius:0px 4px 4px 0px;
+	border:1px solid #b76260;
+	text-indent:15px;
+}
+a{
+	color:#4f8bca;
+	text-decoration:none;
+}
+span{
+	color:#b76260;
+	font-size:14px;
+}
+.hint_text{
+	color:#a94442;
+	display:block;
+	margin-bottom:20px;
+}
+.code{
+	width:100%;
+	margin-right:10px;
+	border-radius:4px 0px 0px 4px;
+	border-right:none;
+}
+.ul_code span{
+	display:block;
+	width:35%;
+	line-height:40px;
+	color:#4f8bca;
+	text-align:center;
+
+}
+.login_btn{
+	width:100%;
+	height:40px;
+	color:#fff;
+	background-color:#e2454e;
+	border-radius:6px;
+}
+
